@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="#">
+
+		<title>Home for Dino</title>
+	
+	 <!-- Bootstrap theme -->
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css">
+     <!-- Bootstrap responsive theme -->
+    <link href="Bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="Bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+	</head>
+<!-- Helps to read page but may cause problems depending on web browser -->
+	<body role= "document">
+    
+    <!-- Standard navigation bar, toogle-->
+     <div class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <!-- need to link to homepage-->
+            <a class="active" href="index.html"><h1>Dino</h1></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+               <li class="dropdown">
+                 <!-- need to link to homepage section-->
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Test Your Knowledge<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <!-- need to link to Flash Cards webpage-->
+              <li><a href="Dinos_TaxonFC.php">Flash Cards</a></li>
+                <!-- need to link to Quiz webpage-->
+                <li><a href="Dinos_List.php">Quiz</a</li>
+                </li>
+                </ul>
+               <!-- need to link to Search webpage-->
+               <li><a href="Dinos_Search.php">Search</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div> <!-- end navigation bar-->
+      
+      
+      	<div class="container theme-showcase" role="main">
+	        
+	        	<!-- About Us area -->
+ 			   <div class="jumbotron">
+	        	<h1>About Dino</h1>
+	        	<p class= "lead"> We compiled this database of dinosaurs for college students taking <strong>GEO 
+302D Age of Dinosaurs.</strong> We help 
+students learn to identify the dinosaurs and the taxa they belong to using images of their skeletons and the characters 
+that define each taxon.</p>
+	        	</div>
+	         <br>
+			
+			<!--Description of Resources -->
+			<div class="row">
+			<div class="col-xs-9">
+        	<div class="text-left">
+	        		<h2>What if I need to study?</h2>
+			  	  <blockquote>You can search the dinosaurs first to learn about taxa. This index 
+provides information on all of the dinosaurs and 
+taxa available on our web site.</blockquote>
+			  	   <p class="divider"></p>
+			  	  <h2>How do I test my knowledge?</h2>
+			  	  <blockquote> First, you can view the <strong>Flash Cards</strong> of the different 
+which will show you either one dinosaur or a group of dinosaurs. Then, you guess the taxon. Once you think you have the 
+answer, click the answer button to see if you're correct.
+Once you think you are an expert, try the <strong>Quiz</strong>! you need to type the 
+answer. Don't worry; we provide 
+hints!</blockquote>
+  			</div>
+    	     	</div>
+		</div> <!-- close theme -->
+<hr>
+<!-- Resources -->
+<div class="row">
+<div class="text-center">
+				
+	   <div class="col-lg-4">
+					<h3>Search Dinosaurs</h3>
+					<p>Do you want to learn more about each dinosaur?<br>Search here to learn the 
+smallest<br> monophyletic taxon, image, and characters.</p>
+					<form>
+                                         <input type="button" 
+value="Search"onClick="window.location.href='Dinos_Search.php'" class="btn btn-lg btn-warning">
+                                        </form>
+				</div>
+			<div class="col-lg-4">
+					<h3>Taxa Flash Cards</h3>
+					<p>In this deck, you're given<br/>pictures of multiple dinosaurs.<br> 
+You will guess which smallest monophyletic<br>group applies to all of the dinosaurs. <br>
+					<form>
+                                         <input type="button" value="Flash 
+Cards"onClick="window.location.href='Dinos_TaxonFC.php'" class="btn btn-lg btn-info">
+                                        </form>
+				</div>
+					
+	<div class="col-lg-4">
+					<h3>Taxa Quiz</h3>
+					 <p>In this quiz, you're given<br>one picture of a specific dinosaur and<br/>
+have to name the smallest monophyletic<br>group this dinosaur belongs to. <br>
+					<form>
+                                         <input type="button" 
+value="Quiz"onClick="window.location.href='Dinos_List.php'" class="btn btn-lg btn-success">
+                                        </form>
+
+				</div>
+				
+	
+				
+		</div>
+	</div>  
+	</body>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+	</body>
+		<hr>
+			<div class="footer">
+				<p>&copy; Brenskelle, Brown, Carter, Gao, and Sayre   2014</p>
+			</div>
+		</div>
+</html>
